@@ -1,0 +1,28 @@
+   0 whoami 
+   1 mkdir -p /home/user/start/
+   2 touch /home/user/start/1.txt
+   3 tree /home/
+   4 echo "Start" > /home/user/start/1.txt 
+   5 tree /home/
+   6 cat /home/user/start/1.txt 
+   7 date >> /home/user/start/1.txt 
+   8 cat /home/user/start/1.txt 
+   9 mkdir -p /opt/task/start.txt
+  10 cp /home/user/start/1.txt /opt/task/start.txt/
+  11 cat /opt/task/start.txt/
+  12 tree /opt/
+  13 tail -n 4/* >> /opt/task/start.txt/
+  14 touch /opt/task/start.txt/2.txt
+  15 cp /home/user/start/1.txt /opt/task/start.txt/2.txt 
+  16 cat /opt/task/start.txt/2.txt 
+  17 tail -n 4/* >> /opt/task/start.txt/2.txt 
+  18 tail -n 4 /* >> /opt/task/start.txt/2.txt 
+  19 echo "я не понимаю в чём ошибка"
+  20 tree /tmp
+  21 mkdir /tmp/testnew/
+  22 cp -r /opt/task/ /tmp/testnew/
+  23 cat ~/readme.txt >> /tmp/testnew/task/start.txt/
+  24 cat ~/readme.txt >> /tmp/testnew/task/start.txt/2.txt 
+  25 rm -r /opt/task/
+  26 history 
+  27 history > history27_01.txt
